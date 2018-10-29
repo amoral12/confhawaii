@@ -1,0 +1,78 @@
+#header{
+	background-color: #343a40;
+}
+
+#header img{
+	width: 80px;
+}
+
+#header span{
+	font-size:18px; 
+	vertical-align: middle;
+}
+
+.texto-platzi{
+	color:#97c93e !important; /*sirve para dar mas valor a la propiedad que se le indica*/
+}
+
+/* /ESTILOS HEADER/ */
+
+/* /ESTILOS RELACIONADOS CON FOOTER/ */
+#footer{
+	background-color: #1E516F;
+}
+
+#footer a{
+	color: white;
+}
+/* /ESTILOS FOOTER/ */
+
+/* /ESTILOS RELACIONADOS CON carrusel/ */
+
+
+#carousel img {
+	height: 70vh;
+	object-fit: cover; /*La unida vh visualiza un porcentaje en la vertical */
+	filter: grayscale(50%);
+
+}
+
+#carousel {
+	position: relative;
+}
+
+#carousel .overlay {
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+}
+#carousel .overlay .container, #carousel .overlay .row{
+	height: 100%;
+}
+
+.btn-platzi{
+	background-color:#97c93e;
+	color:white;
+}
+
+.btn-platzi:hover{
+	background-color:#649F34 !important;
+}
+
+/*estilos relacionados con el contenedor entero*/
+
+#lugarfecha {
+	background-color: #343a40;
+	color: white;
+
+}
+
+#lugarfecha img{
+	max-width: 100%;
+}
+/*fin estilos relacionados con el contenedor entero*/
